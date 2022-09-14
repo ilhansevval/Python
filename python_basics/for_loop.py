@@ -7,6 +7,11 @@ Created on Sun Jun 12 16:18:57 2022
 
 #for_loop
 
+"""
+döngüler bir dizi üzerinde yineleme yapmak için kullanılan yapılardır.
+
+"""
+
 for each in range (1,11): #1 -> inclusive, 11 -> exclusive
     
     print(each) 

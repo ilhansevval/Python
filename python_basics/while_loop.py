@@ -7,6 +7,11 @@ Created on Sun Jun 12 16:34:35 2022
 
 #while_loop
 
+"""
+döngüler bir dizi üzerinde yineleme yapmak için kullanılan yapılardır.
+
+"""
+
 #while loop'ta bir condition vardır.
 
 i=0 

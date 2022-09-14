@@ -6,6 +6,13 @@ Created on Sun Jun 12 11:23:38 2022
 """
 
 #list
+"""
+bileşik bir veri tipidir, çok yönlüdür.
+[1,"a",1.0]
+farklı veri tiplerini içerisinde barındırabilir.
+
+"""
+
 #her bir integer,string değeri için bir variable oluşturmak yerine bir list oluşturulur.
 #list string,integer,float gibi bir datatype'dır.
 
@@ -40,6 +47,8 @@ list_int.remove(7) #7 listeden çıkartılır.
 list_int.reverse(7) #listeyi ters çevirir.
 
 list_yeni=[3,5,2,6,1,4]
-list_yeni.sort()
+list_yeni.sort() 
+#sort methodu ile liste küçükten büyüğe sıralanır.
+#büyükten küçüğe doğru sıralamak için sort methodu ile küçükten büyüğe sıralanıp, reverse methodu ile ters çevrilir.
 
 string_int_list=["sevval","ilhan",15,1,2000] #liste string ve integer değer birlikte alabilir.

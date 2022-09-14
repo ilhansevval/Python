@@ -8,6 +8,13 @@ Created on Sun Jun 12 15:04:33 2022
 #conditionals
 #if else statement
 
+"""
+koşullu ifadeler programcı tarafından belirtilen bir boolean koşulun gerçekleşmesine dayalı olan ifadelerdir.
+gerçekleşecek koşul  bir boolean veri tipidir.
+boolean veri tipinde True ya da False değerleri bulunur.
+
+"""
+
 1 == 1 #True
 
 1 == 2 #False
@@ -22,6 +29,7 @@ True == False #False
 
 1>0 or 4<3 #True (tek durumun doğru olması yeterli)
 
+#büyük küçük sayı karşılaştırılması
 var1=10
 var2=20
 
@@ -35,6 +43,8 @@ elif (var1 == var2):
 else :
     
     print("var1 küçüktür var2'den")
+    
+print(var1<var2) #koşul doğru olduğundan True ifadesi yazdırılır.
     
 
 liste =[1,2,3,4,5]
@@ -68,6 +78,16 @@ if "sevval" in keys: #sevval keylerin içindeyse evet, değilse hayır yazılır
 else:
     print("hayır")
     
+bool1=True
+bool2=False
+
+if bool1 or bool2:
+    print("Doğru")
+else:
+    print("Yanlış")
+    
+#if statement içerisinde or kullanıldığı için iki değişkenden birinin True olması yeterlidir.
+#Doğru yazdırılır.
 
 
 # 1650. yıl = 17. yüzyıl
