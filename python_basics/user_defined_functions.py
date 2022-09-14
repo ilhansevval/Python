@@ -19,9 +19,9 @@ def func(var1,var2): #yazılan output denklemi fonksiyona çevrilir.
     
     func
     
-    parametre:
+    parametre: int - var1, int - var2
     
-    return:
+    return: int - output
     
     """
     output=((var1+var2)*50)/100.0*var1/var2
@@ -29,3 +29,18 @@ def func(var1,var2): #yazılan output denklemi fonksiyona çevrilir.
     return output
 
 func(1,2) #var1=1 var2=2 atanır ve denklemdeki işlem yapılır. Sonuç 0.75 
+
+#boş fonksiyon
+
+def bos():
+    pass
+
+#eğer parametre fonksiyonun içerisinde global olarak tanımlanırsa fonksiyonun dışında da kullanılabilir.
+katsayi = 5
+
+def katsayi_carpim():
+    global katsayi
+    print(katsayi*katsayi)
+    
+katsayi_carpim()
+print(katsayi)

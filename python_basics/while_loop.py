@@ -21,6 +21,7 @@ while (i<4):
     print(i)
     
     i = i+1 #i=4 olana kadar yazdırır. (0,1,2,3)
+#eğer i artırılmazsa 0 hiçbir zaman 4'ten büyük olmayacağı için sonsuz döngüye girer.
     
 
 liste = [1,2,3,4,7,9,5,8,6,0]

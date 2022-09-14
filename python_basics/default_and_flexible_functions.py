@@ -28,6 +28,23 @@ cember_cevre(2) #pi sayısı default olarak tanımlandığından fonksiyonda yen
 #cember cevresi 12.56 olarak hesaplandı. 
 
 
+def daire_alan(r,pi=3.14): 
+    
+    """
+    daire_alan
+    
+    parametre: int - r, pi
+    
+    output : daire alanı
+    
+    """
+    
+    output = pi*(r**2)
+    
+    return output
+
+daire_alan(3) #28.26
+
 #flexible function
 
 def hesapla(boy,kilo,*args): #boy ve kilo parametleri kesinlikle olacak, ekstra parametler de eklenebilir.
